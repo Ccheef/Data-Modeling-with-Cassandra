@@ -10,20 +10,22 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 <li> Data Modling: artist, song, length, sessionid, iteminsession, PRIMARY KEY (sessionid, iteminsession)</li>
 <li> Answer: Faithless Music Matters (Mark Knight Dub) 495.30731201171875 </li>
 </ul>
+  <br/>
 <li> Question 2: Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182</li>
 <ul>
 <li> Data Modling: artist, song, firstname, lastname, userid, sessionid, iteminsession, PRIMARY KEY (userid, sessionid, iteminsession)</li>
-<li> Answer: Down To The Bone Keep On Keepin' On Sylvie Cruz<br/>
+<li> Answer: <br/>Down To The Bone Keep On Keepin' On Sylvie Cruz<br/>
 Three Drives Greece 2000 Sylvie Cruz<br/>
 TSebastien Tellier Kilometer Sylvie Cruz<br/>
 Lonnie Gordon Catch You Baby (Steve Pitron & Max Sanna Radio Edit) Sylvie Cruz</li>
 </ul>
+  <br/>
 <li> Question 3: Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'</li>
 <ul>
 <li> Data Modeling:firstname, lastname, userid, song, PRIMARY KEY (song, userid)</li>
-<li> Answer: <br>Jacqueline Lynch</br>
-<br>Tegan Levine</br>
-<br>Sara Johnson</br></li>
+<li> Answer: <br/>Jacqueline Lynch<br/>
+Tegan Levine<br/>
+Sara Johnson</li>
 </ul>
 </ol>
 
